@@ -12,7 +12,7 @@ docker build -t declicimmo .
 Et ensuite on peut lancer l'image
 
 ```shell
-docker run -p 80:80 declicimmo
+docker run -p 84:80 declicimmo
 ```
 
 # déploiement sur le serveur declicimmo
