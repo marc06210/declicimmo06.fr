@@ -2,7 +2,7 @@
 
 Le test local repose sur une image docker qui package un nginx et pousse les répertoires qu'il faut.
 
-Si on ajoute un répertoire correspondant à une nouvelle personne il faut modifier le fichier Dockerfile.
+Si on ajoute un répertoire correspondant à une nouvelle personne il faut modifier le fichier Dockerfile. Ce n'est plus la peine.
 
 Pour faire le build
 ```shell
@@ -20,7 +20,7 @@ docker run -p 84:80 declicimmo
 Le plus simple est de se connecter en ssh sur la machine pour créer les répertoires nécessaires.
 
 ```shell
-scp -P 38853 declicimmo@2.15.249.172
+ssh declicimmo@2.15.249.172 -p 38853
 ````
 
 Ensuite on pousse les fichiers en indiquant le chemin cible complet.
