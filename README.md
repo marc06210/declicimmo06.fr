@@ -30,3 +30,7 @@ Exemple, ici on pousse photo.jpeg dans le path complet dans le répertoire lié 
 ```shell
 scp -P 38853 photo.jpeg declicimmo@2.15.249.172:/home/declicimmo/www/html/christophe/photo.jpeg
 ```
+
+# Notes
+
+Le fichier -redirects doit permettre de pousser tous les 404 vers la page index.html
